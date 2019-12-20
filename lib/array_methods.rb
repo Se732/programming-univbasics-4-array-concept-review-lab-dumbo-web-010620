@@ -1,9 +1,13 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  array = [4,6,3,1,5,9]
+  value_to_find = array.index
+    puts value_to_find
 end
 
-def find_max_value(array)
-  # Add your solution here
+def find_max_value([1,9,10,8,21,14,16])
+  array.length.max { |index|
+    puts array[index]
+  }
 end
 
 def find_min_value(array)
