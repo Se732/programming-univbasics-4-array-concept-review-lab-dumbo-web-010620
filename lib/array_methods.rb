@@ -14,7 +14,7 @@ def find_max_value([1,9,10,8,21,14,16])
     x = array[count]
   end
   x
-end 
+end
 
 
 
@@ -22,11 +22,9 @@ end
 def find_min_value(array)
   x = array[0]
   array.length.times do |arr|
-    if array[count] < x 
+    if array[count] < x
       x = array[count]
     end
     x
   end
 end
-    
-
