@@ -13,10 +13,10 @@ def find_max_value([1,9,10,8,21,14,16])
      if array[count] > x
     x = array[count]
   end
-  x 
+  x
 end 
 
-  
+
 
 
 def find_min_value(array)
