@@ -7,13 +7,17 @@ while count < array.length do
   nil
 end
 
-
-
 def find_max_value([1,9,10,8,21,14,16])
-  array.length.max { |index|
-    puts array[index]
-  }
-end
+  x = array[2]
+   array.length.times do |count|
+     if array[count] > x
+    x = array[count]
+  end
+  x 
+end 
+
+  
+
 
 def find_min_value(array)
   # Add your solution here
